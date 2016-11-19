@@ -61,5 +61,35 @@ Let's review what you've learned so far:
     HTML elements can be labeled with multiple classes.
     Divs are one of the most commonly used HTML elements. Understanding how they are used is a critical skill for web developers.
 
+    It's not possible to view a box's border if the border's style has not been set. A border's style can be set with the border-style property. This property can take on one of the following values:
+
+        solid - border is a solid line.
+        dashed - border is a series of lines or dashes.
+        dotted - border is a series of square dots.
+        double - border is two solid black lines.
+        groove - border is a groove (or carving).
+        inset - border appears to cut into the screen.
+        outset - border appears to pop out of the screen.
+        ridge - border appears as a picture frame.
+        hidden or none - no border.
+
+        p {
+          border-style: solid;
+          border-width: 3px 1px 2px 1px;
+        }
+        The values in the example above refer to the border width in clockwise order (top: 3 pixels, right: 1 pixel, bottom: 2 pixels, left: 1 pixel).
+
+    Let's review what you learned:
+
+        You can style the borders of an element's box.
+        The border-width property allows you to set the thickness, or width, of a border.
+        The border-style property allows you to change the style of border used.
+        The border-color property allows you to change the color of a border.
+        Individually setting the style, thickness, and color of a border can bloat code. It's more efficient to use the shorthand border property and specify all three properties at once, in that order.
+        Box borders don't have to be square. Their corners can be rounded with the border-radius property.
+
+    So far, we've focused on two aspects of the box: dimensions and borders. In the next unit, we'll focus on the content within the box and the space outside of the box.
+
+
 
 

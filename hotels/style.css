@@ -5,6 +5,11 @@ body {
     text-align: center;
 }
 
+*{
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    /* delete this*/
+}
+
 .jumbotron {
     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_singaporeskyline.jpeg");
     height: 400px;
@@ -50,6 +55,13 @@ p {
     margin: 60px auto;
     padding: 10px 0px 0px 0px;
     width: 90%;
+    /* border-style: solid;
+     border-top-width: 5px;
+     border-color: #AF3432;*/
+    /*code bloat*/
+    border: 2px solid #FFF;
+    /*border-width: 4px 2px 4px 2px;*/
+    border-radius: 10px;
 }
 
 .hotel-img {
